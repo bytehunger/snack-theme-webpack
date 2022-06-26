@@ -1,14 +1,10 @@
 .widget.image_and_text {
   .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 3rem 15px;
-
-    &.text-first {
-      flex-direction: row-reverse;
-    }
   }
 
   .image {
@@ -24,5 +20,15 @@
   a {
     display: inline-block;
     border-bottom: 2px solid #000;
+  }
+
+  @media (min-width: 1000px) {
+    .container {
+      flex-direction: row;
+
+      &.text-first {
+        flex-direction: row-reverse;
+      }
+    }
   }
 }

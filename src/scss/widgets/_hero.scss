@@ -1,5 +1,5 @@
 .widget.hero {
-  min-height: 100vh;
+  min-height: calc(100vh - 70px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,8 +17,21 @@
 
   .scroll {
     position: absolute;
-    bottom: 20vh;
-    right: 100px;
+    bottom: 10vh;
+    right: 20px;
     transform: rotate(90deg);
+  }
+
+  @media (min-width: 1000px) {
+    min-height: 0;
+
+    .headline {
+      font-size: 3.75rem;
+    }
+
+    .scroll {
+      bottom: 20vh;
+      right: 100px;
+    }
   }
 }

@@ -9,6 +9,10 @@
     align-items: center;
   }
 
+  .logo {
+    padding: 0 15px;
+  }
+
   .logo img {
     padding: 10px 0;
     max-height: 40px;
@@ -27,6 +31,12 @@
       &:hover {
         border-bottom: 2px solid #333;
       }
+    }
+  }
+
+  @media(min-width: 1000px) {
+    .logo {
+      padding: 0;
     }
   }
 }

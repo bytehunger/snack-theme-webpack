@@ -11,8 +11,12 @@
 
 body, html {
   font-family: Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Open Sans';
+
+  @media (min-width: 1000px) {
+    font-size: 16px;
+  }
 }
 
 h1 {
