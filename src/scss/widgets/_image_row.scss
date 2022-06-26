@@ -1,0 +1,33 @@
+.widget.image_row {
+  .container {
+    padding: 3rem 15px;
+  }
+
+  .elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .element {
+    padding: 25px;
+    text-align: center;
+    max-width: 250px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .caption {
+    font-weight: bold;
+    margin: 15px 0;
+  }
+
+  .headline {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

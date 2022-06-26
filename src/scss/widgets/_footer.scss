@@ -1,0 +1,21 @@
+.widget.footer {
+  margin: 0;
+  background: #f0f0f0;
+  color: #555;
+
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .links {
+    display: flex;
+  }
+}

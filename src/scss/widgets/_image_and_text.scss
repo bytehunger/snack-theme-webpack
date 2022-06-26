@@ -1,0 +1,28 @@
+.widget.image_and_text {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 15px;
+
+    &.text-first {
+      flex-direction: row-reverse;
+    }
+  }
+
+  .image {
+    margin: 50px;
+    flex: 1 0 auto;
+    max-width: 400px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  a {
+    display: inline-block;
+    border-bottom: 2px solid #000;
+  }
+}
