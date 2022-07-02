@@ -1,9 +1,9 @@
 import AOS from 'aos';
 
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('foo1')
   AOS.init({
-      offset: 300,
-      delay: 200,
+    startEvent: 'load',
+    offset: 250,
+    duration: 1000,
   });
 });

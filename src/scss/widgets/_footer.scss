@@ -2,6 +2,7 @@
   margin: 0;
   background: #f0f0f0;
   color: #555;
+  font-size: 14px;
 
   a {
     text-decoration: none;
@@ -17,5 +18,9 @@
 
   .links {
     display: flex;
+
+    & > * {
+      margin: 0 5px;
+    }
   }
 }
