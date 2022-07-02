@@ -1,6 +1,6 @@
-<div class="widget image_and_text" data-aos="fade-up">
+<div class="widget image_and_text">
   <div class="container {{ .Content.firstElement }}-first">
-    <div class="image">
+    <div class="image" data-aos="fade-up">
       <img src="{{ .Content.image }}">
     </div>
     <div class="text">

@@ -2,13 +2,14 @@
   min-height: calc(100vh - 70px);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
 
   .headline {
     font-size: 3.75rem;
     line-height: 1.2em;
     text-align: center;
+    padding: 10vh 15px 0;
 
     strong {
       font-weight: bold;
@@ -23,7 +24,10 @@
   }
 
   @media (min-width: 1000px) {
+    align-items: center;
+
     .headline {
+      padding: 0 15px;
       font-size: 3.75rem;
     }
 

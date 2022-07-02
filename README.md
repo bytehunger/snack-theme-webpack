@@ -2,6 +2,9 @@
 This is a simple theme for the static site generator [snack](https://github.com/webhunger-ch/snack).
 It uses scss (node-sass) and javascript (webpacker) for development.
 
+## Demo
+A demo can be found [here](https://www.webhunger.ch).
+
 ## Supported widgets
 * Menu
 * Article
