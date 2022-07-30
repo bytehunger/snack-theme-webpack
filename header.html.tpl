@@ -6,5 +6,10 @@
     <title>{{ .Title }}</title>
     <link rel="stylesheet" href="/assets/css/main.css">
     <script type="text/javascript" src="/assets/js/bundle.js"></script>
+
+    {{ if ne .Site.Favicon "" }}
+      <link rel="icon" href="/pictures/{{ .Site.Favicon }}">
+    {{ end }}
+
   </head>
   <body>
