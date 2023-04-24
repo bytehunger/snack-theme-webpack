@@ -1,12 +1,12 @@
 # snack-theme-webpack
 This is a simple theme for the static site generator [snack](https://github.com/bytehunger/snack).
-It uses scss (node-sass) and javascript (webpacker) for development and webpack for module bundling.
+It uses scss (node-sass), javascript and webpacker.
 
 
 ## Sections
 
 ### Menu
-```
+``` yaml
 sections:
   - type: menu
     content:
@@ -19,7 +19,7 @@ sections:
 ```
 
 ### Footer
-```
+``` yaml
 sections:
   - type: menu
     content:
@@ -33,7 +33,7 @@ sections:
 
 
 ### Article
-```
+``` yaml
 sections:
   - type: article
     content:
@@ -41,7 +41,7 @@ sections:
 ```
 
 ### Headline
-```
+``` yaml
 sections:
   - type: article
     content:
@@ -49,7 +49,7 @@ sections:
 ```
 
 ### Image Row
-```
+``` yaml
 sections:
   - type: "image_row"
     content
@@ -64,7 +64,7 @@ sections:
 ```
 
 ### Image and Text
-```
+``` yaml
 sections:
   - type: "image_and_text"
     content:
@@ -77,7 +77,7 @@ sections:
 ## Development
 
 ### Installation
-```
+``` bash
 # via yarn
 yarn
 
@@ -86,7 +86,7 @@ npm install
 ```
 
 ### Building the project
-```
+``` bash
 # via yarn
 yarn run build:css
 yarn run build:js
