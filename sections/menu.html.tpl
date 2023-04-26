@@ -1,4 +1,4 @@
-<div class="widget menu">
+<section class="menu">
   <div class="container">
     <div class="logo">
       <a href="/">
@@ -13,4 +13,4 @@
     </ul>
 
   </div>
-</div>
+</section>

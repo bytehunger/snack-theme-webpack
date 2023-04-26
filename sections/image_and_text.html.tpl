@@ -1,4 +1,4 @@
-<div class="widget image_and_text">
+<section class="image_and_text">
   <div class="container {{ .Content.firstElement }}-first" data-aos="fade-up">
     <div class="image">
       <img src="{{ .Content.image }}">
@@ -12,4 +12,4 @@
       </p>
     </div>
   </div>
-</div>
+</section>

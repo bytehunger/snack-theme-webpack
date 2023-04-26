@@ -1,4 +1,4 @@
-<div class="widget image_row">
+<section class="image_row">
   <div class="container">
     <h2 class="headline">{{ .Content.headline }}</h2>
     <div class="elements">
@@ -15,4 +15,4 @@
       {{ end }}
     </div>
   </div>
-</div>
+</section>

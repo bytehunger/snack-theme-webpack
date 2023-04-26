@@ -1,5 +1,5 @@
-<div class="widget article">
+<section class="article">
   <div class="container">
     <p>{{ .Content.text | safeHTML }}</p>
   </div>
-</div>
+</section>

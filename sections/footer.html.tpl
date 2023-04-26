@@ -1,4 +1,4 @@
-<div class="widget footer">
+<section class="footer">
   <div class="container">
     &copy; {{ .Content.copyright }}
     <ul class="links">
@@ -7,4 +7,4 @@
       {{ end }}
     </ul>
   </div>
-</div>
+</section>
