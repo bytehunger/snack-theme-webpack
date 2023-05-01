@@ -1,0 +1,18 @@
+section.big-button {
+  padding-top: var(--section-padding-top);
+  padding-bottom: var(--section-padding-bottom);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .big-button {
+    &__button {
+      display: inline-block;
+      font-size: 1.3rem;
+      padding: 1rem 3rem;
+      border-radius: 999px;
+      background-color: var(--primary-color);
+      color: #fff;
+    }
+  }
+}

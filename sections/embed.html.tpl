@@ -9,7 +9,7 @@
     <embed
       src="{{ .Content.link }}"
       width="100%"
-      height="375"
+      height="65vh"
       type="application/pdf">
   </div>
 </section>

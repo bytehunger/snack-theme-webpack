@@ -13,6 +13,7 @@
 
     <style>
       :root {
+        --primary-color: #000;
         --section-padding-top: 36px;
         --section-padding-bottom: 36px;
       }
