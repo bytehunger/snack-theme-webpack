@@ -74,6 +74,15 @@ sections:
       image: "/pictures/illustration.png"
 ```
 
+### Embed
+``` yaml
+sections:
+  - type: "embed"
+    content:
+      headline: "This is a headline"
+      link: "/download/test.pdf",
+```
+
 ## Development
 
 ### Installation

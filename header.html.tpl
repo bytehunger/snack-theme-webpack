@@ -11,5 +11,12 @@
       <link rel="icon" href="/pictures/{{ .Site.Favicon }}">
     {{ end }}
 
+    <style>
+      :root {
+        --section-padding-top: 36px;
+        --section-padding-bottom: 36px;
+      }
+    </style>
+
   </head>
   <body>
